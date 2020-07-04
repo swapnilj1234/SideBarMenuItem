@@ -13,6 +13,7 @@
 		3095410724B0EE6100D032A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3095410524B0EE6100D032A2 /* Main.storyboard */; };
 		3095410924B0EE6400D032A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3095410824B0EE6400D032A2 /* Assets.xcassets */; };
 		3095410C24B0EE6400D032A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3095410A24B0EE6400D032A2 /* LaunchScreen.storyboard */; };
+		A3AFA032348ED049FC97126A /* Pods_Menu_SideBar_Ios_Academy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB40B0E967D13B15CD6E6502 /* Pods_Menu_SideBar_Ios_Academy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		3095410824B0EE6400D032A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3095410B24B0EE6400D032A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3095410D24B0EE6400D032A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C19EDB7E8D7C511B519AA367 /* Pods-Menu_SideBar_Ios_Academy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Menu_SideBar_Ios_Academy.release.xcconfig"; path = "Target Support Files/Pods-Menu_SideBar_Ios_Academy/Pods-Menu_SideBar_Ios_Academy.release.xcconfig"; sourceTree = "<group>"; };
+		DB40B0E967D13B15CD6E6502 /* Pods_Menu_SideBar_Ios_Academy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Menu_SideBar_Ios_Academy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB460D0E0E53E5B6555894CD /* Pods-Menu_SideBar_Ios_Academy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Menu_SideBar_Ios_Academy.debug.xcconfig"; path = "Target Support Files/Pods-Menu_SideBar_Ios_Academy/Pods-Menu_SideBar_Ios_Academy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3AFA032348ED049FC97126A /* Pods_Menu_SideBar_Ios_Academy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				309540FE24B0EE6000D032A2 /* Menu_SideBar_Ios_Academy */,
 				309540FD24B0EE6000D032A2 /* Products */,
+				730E1ECB14F5B76371BA5B7D /* Pods */,
+				A032A642249B5DF86CED80FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = Menu_SideBar_Ios_Academy;
 			sourceTree = "<group>";
 		};
+		730E1ECB14F5B76371BA5B7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB460D0E0E53E5B6555894CD /* Pods-Menu_SideBar_Ios_Academy.debug.xcconfig */,
+				C19EDB7E8D7C511B519AA367 /* Pods-Menu_SideBar_Ios_Academy.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A032A642249B5DF86CED80FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB40B0E967D13B15CD6E6502 /* Pods_Menu_SideBar_Ios_Academy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3095411024B0EE6400D032A2 /* Build configuration list for PBXNativeTarget "Menu_SideBar_Ios_Academy" */;
 			buildPhases = (
+				9B7EBCFCAA9B246EA431A995 /* [CP] Check Pods Manifest.lock */,
 				309540F824B0EE6000D032A2 /* Sources */,
 				309540F924B0EE6000D032A2 /* Frameworks */,
 				309540FA24B0EE6000D032A2 /* Resources */,
+				0480E149805468F729FEDD28 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0480E149805468F729FEDD28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Menu_SideBar_Ios_Academy/Pods-Menu_SideBar_Ios_Academy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Menu_SideBar_Ios_Academy/Pods-Menu_SideBar_Ios_Academy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Menu_SideBar_Ios_Academy/Pods-Menu_SideBar_Ios_Academy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B7EBCFCAA9B246EA431A995 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Menu_SideBar_Ios_Academy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		309540F824B0EE6000D032A2 /* Sources */ = {
@@ -282,6 +351,7 @@
 		};
 		3095411124B0EE6400D032A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB460D0E0E53E5B6555894CD /* Pods-Menu_SideBar_Ios_Academy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +369,7 @@
 		};
 		3095411224B0EE6400D032A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C19EDB7E8D7C511B519AA367 /* Pods-Menu_SideBar_Ios_Academy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
