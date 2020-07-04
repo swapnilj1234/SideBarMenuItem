@@ -10,13 +10,23 @@ import UIKit
 import SideMenu
 class ViewController: UIViewController {
 
-    private var sideMenuBar : SideMenuNavigationControllerDelegate?
-    
+    private var sideMenuBar = SideMenuNavigationController(rootViewController : UIViewController())
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        sideMenuBar.leftSide = true
+        SideMenuManager.default.leftMenuNavigationController  = sideMenuBar
+        
+        SideMenuManager.default.addPanGestureToPresent(toView: view)
+        
     }
 
-
+    @IBAction func didTappedMenubar(_ sender: UIBarButtonItem) {
+        
+        present(sideMenuBar,animated: true)
+    }
+    
 }
+
 
