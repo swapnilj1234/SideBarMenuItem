@@ -10,7 +10,9 @@ import UIKit
 import SideMenu
 class ViewController: UIViewController {
 
-    private var sideMenuBar = SideMenuNavigationController(rootViewController : UIViewController())
+    private var sideMenuBar = SideMenuNavigationController(rootViewController : MenuController(with: ["Home","Info","Setting"]))
+    
+    
   
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +35,11 @@ class MenuController : UITableViewController
 {
     private let menuItem : [String]
     
-   
+    private let color =  UIColor(red: 33/255.0, green: 33/255.0, blue: 33/255.0, alpha: 1)
+
+    
+    
+    
     init(with menuItem : [String])
     {
         
@@ -49,6 +55,8 @@ class MenuController : UITableViewController
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.backgroundColor = color
+        view.backgroundColor = color
     }
     
     
@@ -65,6 +73,12 @@ class MenuController : UITableViewController
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for:  indexPath)
         
         cell.textLabel?.text = menuItem[indexPath.row]
+        
+        cell.textLabel?.textColor = .white
+        cell.backgroundColor = color
+        
+        cell.contentView.backgroundColor = color
+        
         
         return cell
         
