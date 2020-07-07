@@ -5,4 +5,3 @@ By Using 'SideMenuNavigationController' controls all your sideBarMenu
   
 
 
-![alt text](Screenshot 2020-07-07 at 7.30.19 PM.png "Description goes here")
