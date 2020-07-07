@@ -33,6 +33,8 @@ class ViewController: UIViewController {
 class MenuController : UITableViewController
     
 {
+    
+    
     private let menuItem : [String]
     
     private let color =  UIColor(red: 33/255.0, green: 33/255.0, blue: 33/255.0, alpha: 1)
@@ -86,6 +88,10 @@ class MenuController : UITableViewController
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //relay to delegate about menu item select item
+        
+        
+        
+        
     }
 }
 

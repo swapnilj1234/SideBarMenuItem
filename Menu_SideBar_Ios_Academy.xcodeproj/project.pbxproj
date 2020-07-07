@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		302C22E324B4AD7C0062A5A5 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302C22E224B4AD7C0062A5A5 /* InfoViewController.swift */; };
+		302C22E724B4ADB60062A5A5 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302C22E624B4ADB60062A5A5 /* SettingViewController.swift */; };
 		3095410024B0EE6100D032A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309540FF24B0EE6100D032A2 /* AppDelegate.swift */; };
 		3095410224B0EE6100D032A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3095410124B0EE6100D032A2 /* SceneDelegate.swift */; };
 		3095410424B0EE6100D032A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3095410324B0EE6100D032A2 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		302C22E224B4AD7C0062A5A5 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		302C22E624B4ADB60062A5A5 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		309540FC24B0EE6000D032A2 /* Menu_SideBar_Ios_Academy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Menu_SideBar_Ios_Academy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		309540FF24B0EE6100D032A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3095410124B0EE6100D032A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +74,8 @@
 				3095410824B0EE6400D032A2 /* Assets.xcassets */,
 				3095410A24B0EE6400D032A2 /* LaunchScreen.storyboard */,
 				3095410D24B0EE6400D032A2 /* Info.plist */,
+				302C22E224B4AD7C0062A5A5 /* InfoViewController.swift */,
+				302C22E624B4ADB60062A5A5 /* SettingViewController.swift */,
 			);
 			path = Menu_SideBar_Ios_Academy;
 			sourceTree = "<group>";
@@ -80,7 +86,6 @@
 				FB460D0E0E53E5B6555894CD /* Pods-Menu_SideBar_Ios_Academy.debug.xcconfig */,
 				C19EDB7E8D7C511B519AA367 /* Pods-Menu_SideBar_Ios_Academy.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -207,8 +212,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				302C22E724B4ADB60062A5A5 /* SettingViewController.swift in Sources */,
 				3095410424B0EE6100D032A2 /* ViewController.swift in Sources */,
 				3095410024B0EE6100D032A2 /* AppDelegate.swift in Sources */,
+				302C22E324B4AD7C0062A5A5 /* InfoViewController.swift in Sources */,
 				3095410224B0EE6100D032A2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
