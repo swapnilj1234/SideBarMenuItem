@@ -81,7 +81,7 @@ class MenuController : UITableViewController
         //relay to delegate about menu item select item
         
         
-        tableView.deselectRow(at: indexPath, animated: <#T##Bool#>)
+        tableView.deselectRow(at: indexPath, animated: true)
         
         let selectItem = menuItem[indexPath.row]
         
