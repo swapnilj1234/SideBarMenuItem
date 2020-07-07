@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		302C22E324B4AD7C0062A5A5 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302C22E224B4AD7C0062A5A5 /* InfoViewController.swift */; };
 		302C22E724B4ADB60062A5A5 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302C22E624B4ADB60062A5A5 /* SettingViewController.swift */; };
+		302C22E924B4AE490062A5A5 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302C22E824B4AE490062A5A5 /* SideMenu.swift */; };
 		3095410024B0EE6100D032A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309540FF24B0EE6100D032A2 /* AppDelegate.swift */; };
 		3095410224B0EE6100D032A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3095410124B0EE6100D032A2 /* SceneDelegate.swift */; };
 		3095410424B0EE6100D032A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3095410324B0EE6100D032A2 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		302C22E224B4AD7C0062A5A5 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		302C22E624B4ADB60062A5A5 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		302C22E824B4AE490062A5A5 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		309540FC24B0EE6000D032A2 /* Menu_SideBar_Ios_Academy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Menu_SideBar_Ios_Academy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		309540FF24B0EE6100D032A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3095410124B0EE6100D032A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				3095410D24B0EE6400D032A2 /* Info.plist */,
 				302C22E224B4AD7C0062A5A5 /* InfoViewController.swift */,
 				302C22E624B4ADB60062A5A5 /* SettingViewController.swift */,
+				302C22E824B4AE490062A5A5 /* SideMenu.swift */,
 			);
 			path = Menu_SideBar_Ios_Academy;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				302C22E724B4ADB60062A5A5 /* SettingViewController.swift in Sources */,
 				3095410424B0EE6100D032A2 /* ViewController.swift in Sources */,
 				3095410024B0EE6100D032A2 /* AppDelegate.swift in Sources */,
+				302C22E924B4AE490062A5A5 /* SideMenu.swift in Sources */,
 				302C22E324B4AD7C0062A5A5 /* InfoViewController.swift in Sources */,
 				3095410224B0EE6100D032A2 /* SceneDelegate.swift in Sources */,
 			);
